@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    position: relative;
+}
+.logo{
+    width: 150px;    
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    /* margin: 10px; */
+    color: #fff;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 8;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+.nav1{
+    rotate: 90deg;
+    
+    margin: 20px 15px 0px 0px;
+    display: none;
+}
+.nav1 button{
+    padding: 9px 10px;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(49, 48, 48);
+}
+@media (max-width:768px)
+{
+    .options{
+        display: none;
+    }
+    .nav1{
+        display: block;
+        z-index: 99;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+}
+.options :hover{
+    color: red;
+    border-bottom:1px solid red ;
+}
+.options a{
+    text-decoration: none;
+    margin-left: 49px;
+    font-size: 18px;
+    color: black;
+}
+
+
+.toggle-bar{
+    display: none;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    position: fixed;
+    top: 82px;
+    z-index: 1;
+    
+}
+.bar1 a{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 7px 0px;
+    margin-bottom:2px ;
+    background-color: rgba(128, 128, 128, 0.084);
+    width: 100%;
+   
+}
+.home1{
+    width: 100%;
+}
+.home1 a{
+    background-color: #fff;
+    border: 1px solid gray;
+    color: #ed1b24;
+}
+.bar1{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px 8px 3px;
+    
+}
+
+
+#home{
+    color: red;
+}
+.title-strip{
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-h3 h3 {
+        font-size: 25px;
+        width: 100%;
+        font-weight: 600;
+        background: #0052a1;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 40px; 
+}
+.col img{
+    background: #fffaed;
+}
+.col h3{
+    height: 50px;
+    background: #0052a1;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+}
+.col h3:hover{
+    background: red;
+}
+.view button{
+   font-size: 17px;
+   padding: 10px 25px;
+   background: #ed1b24;
+    color: #fff;
+    border: none;
+}
+.view button:hover{
+    background-color: #0052a1;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.last-contain{
+    margin-top: 100px;
+    width: 100%;
+    background-image: url("http://unclejohn.co.in/images/about-home-bg.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.last-contain button{
+    
+    font-size: 17px;
+   padding: 10px 25px;
+   background: #ed1b24;
+    color: #fff;
+}
+.last-contain button:hover{
+    background-color: #0052a1;
+
+}
+.last-contain  h3,h4,p{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.button-2{
+    margin-bottom: 50px;
+    border: none;
+    
+}
+.last-contain h4{
+    color: #0052a1;
+}
+.last-contain h3{
+    margin-right: 350px;
+    background: none;
+    color: #ed1b24;
+}
+.last-contain p{
+    font-size: 17px;
+}
+.col-b img{
+    background: none;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+}
+.col-b{
+    background-image: url("http://unclejohn.co.in/images/about-home-bg.jpg");
+    height: 550px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;  
+}
+.logo-container img{
+    height: 60px;
+    padding-left: 20px;
+}
+.ggg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%; 
+    
+}
+@media (max-width:700px){
+    .last1{
+        padding-right: 25%;
+    }
+
+}
+
+.smedia img{
+    width: 50px;
+}
+.sm{
+    text-align: center;
+}
+.smedia-main{
+    width: 100%;
+}
+.smedia-sub{
+    width: 100%;
+}
+
+
